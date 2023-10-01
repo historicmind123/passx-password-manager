@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans'
+}
+
+nav{
+    background-color: rgba(195, 240, 136, 3.692);
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    font-size: 1.4rem;
+    align-items: center;
+    margin: 0 26px;
+    display: flex;
+}
+
+
+.logo{
+    margin: 0 23px;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 13px;
+}
+
+table,td,tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+td {
+    text-align: center;
+}
+
+.container{
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2 {
+    margin: 23px 0;
+} 
+
+.btn {
+    padding: 8px 19px;
+    background-color: black;
+    border: 1.9px solid whitesmoke;
+    border-radius: 10px;
+    margin: 25px 0;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btnsm{ 
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
+
+
+.logo:hover{
+    color: red;
+    cursor: pointer;
+}
+
+ul li:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.anchor:hover{
+    color: whitesmoke;
+}
+
+#logo:hover{
+    color: red;
+}
